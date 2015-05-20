@@ -81,7 +81,7 @@
 @property (assign) BOOL showDeleted;
 @property (assign) BOOL showPreorders;
 @property (copy) NSString *source;
-@property (assign) NSUInteger startIndex;
+@property (assign) NSUInteger startingIndex;
 @property (copy) NSString *startOffset;
 @property (copy) NSString *startPosition;
 @property (copy) NSString *summaryId;
@@ -135,7 +135,7 @@
 //   maxResults: Maximum number of results to return
 //   showPreorders: Set to true to show pre-ordered books. Defaults to false.
 //   source: String to identify the originator of this request.
-//   startIndex: Index of the first element to return (starts at 0)
+//   startingIndex: Index of the first element to return (starts at 0)
 //  Authorization scope(s):
 //   kGTLAuthScopeBooks
 // Fetches a GTLBooksVolumes.
@@ -497,7 +497,7 @@
 //   q: Full-text search query string in this bookshelf.
 //   showPreorders: Set to true to show pre-ordered books. Defaults to false.
 //   source: String to identify the originator of this request.
-//   startIndex: Index of the first element to return (starts at 0)
+//   startingIndex: Index of the first element to return (starts at 0)
 //  Authorization scope(s):
 //   kGTLAuthScopeBooks
 // Fetches a GTLBooksVolumes.
@@ -623,7 +623,7 @@
 //   showPreorders: Set to true to show books available for preorder. Defaults
 //     to false.
 //   source: String to identify the originator of this request.
-//   startIndex: Index of the first result to return (starts at 0)
+//   startingIndex: Index of the first result to return (starts at 0)
 //  Authorization scope(s):
 //   kGTLAuthScopeBooks
 // Fetches a GTLBooksVolumes.

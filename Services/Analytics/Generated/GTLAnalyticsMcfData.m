@@ -97,7 +97,7 @@
 
 @implementation GTLAnalyticsMcfDataQuery
 @dynamic dimensions, endDate, filters, ids, maxResults, metrics, segment, sort,
-         startDate, startIndex;
+         startDate, startingIndex;
 
 + (NSDictionary *)propertyToJSONKeyMap {
   NSDictionary *map =
@@ -105,7 +105,7 @@
       @"end-date", @"endDate",
       @"max-results", @"maxResults",
       @"start-date", @"startDate",
-      @"start-index", @"startIndex",
+      @"start-index", @"startingIndex",
       nil];
   return map;
 }

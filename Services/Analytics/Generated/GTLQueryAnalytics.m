@@ -45,7 +45,7 @@
 
 @dynamic accountId, appendNumber, customDataSourceId, date, dimensions, endDate,
          fields, filters, ids, maxResults, metrics, profileId, reset, segment,
-         sort, startDate, startIndex, type, webPropertyId;
+         sort, startDate, startingIndex, type, webPropertyId;
 
 + (NSDictionary *)parameterNameMap {
   NSDictionary *map =
@@ -53,7 +53,7 @@
       @"end-date", @"endDate",
       @"max-results", @"maxResults",
       @"start-date", @"startDate",
-      @"start-index", @"startIndex",
+      @"start-index", @"startingIndex",
       nil];
   return map;
 }

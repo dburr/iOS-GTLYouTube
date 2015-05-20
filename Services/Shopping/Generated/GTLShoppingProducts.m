@@ -52,7 +52,7 @@
 @dynamic categories, categoryRecommendations, currentItemCount, debug, ETag,
          extras, facets, identifier, items, itemsPerPage, kind, nextLink,
          previousLink, promotions, redirects, relatedQueries, requestId,
-         selfLink, spelling, startIndex, stores, totalItems;
+         selfLink, spelling, startingIndex, stores, totalItems;
 
 + (NSDictionary *)propertyToJSONKeyMap {
   NSDictionary *map =

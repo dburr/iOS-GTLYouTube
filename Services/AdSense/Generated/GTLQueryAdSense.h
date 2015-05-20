@@ -66,7 +66,7 @@
 @property (copy) NSString *savedReportId;
 @property (retain) NSArray *sort;  // of NSString
 @property (copy) NSString *startDate;
-@property (assign) NSInteger startIndex;
+@property (assign) NSInteger startingIndex;
 @property (assign) BOOL tree;
 
 #pragma mark -
@@ -270,7 +270,7 @@
 //   sort: The name of a dimension or metric to sort the resulting report on,
 //     optionally prefixed with "+" to sort ascending or "-" to sort descending.
 //     If no prefix is specified, the column is sorted ascending.
-//   startIndex: Index of the first row of report data to return. (0..5000)
+//   startingIndex: Index of the first row of report data to return. (0..5000)
 //  Authorization scope(s):
 //   kGTLAuthScopeAdSense
 //   kGTLAuthScopeAdSenseReadonly
@@ -293,7 +293,7 @@
 //   locale: Optional locale to use for translating report output to a local
 //     language. Defaults to "en_US" if not specified.
 //   maxResults: The maximum number of rows of report data to return. (0..50000)
-//   startIndex: Index of the first row of report data to return. (0..5000)
+//   startingIndex: Index of the first row of report data to return. (0..5000)
 //  Authorization scope(s):
 //   kGTLAuthScopeAdSense
 //   kGTLAuthScopeAdSenseReadonly
@@ -526,7 +526,7 @@
 //   sort: The name of a dimension or metric to sort the resulting report on,
 //     optionally prefixed with "+" to sort ascending or "-" to sort descending.
 //     If no prefix is specified, the column is sorted ascending.
-//   startIndex: Index of the first row of report data to return. (0..5000)
+//   startingIndex: Index of the first row of report data to return. (0..5000)
 //  Authorization scope(s):
 //   kGTLAuthScopeAdSense
 //   kGTLAuthScopeAdSenseReadonly
@@ -547,7 +547,7 @@
 //   locale: Optional locale to use for translating report output to a local
 //     language. Defaults to "en_US" if not specified.
 //   maxResults: The maximum number of rows of report data to return. (0..50000)
-//   startIndex: Index of the first row of report data to return. (0..5000)
+//   startingIndex: Index of the first row of report data to return. (0..5000)
 //  Authorization scope(s):
 //   kGTLAuthScopeAdSense
 //   kGTLAuthScopeAdSenseReadonly

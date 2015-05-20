@@ -48,7 +48,7 @@
 
 @dynamic accountId, adClientId, adUnitId, currency, customChannelId, dimension,
          endDate, fields, filter, includeInactive, locale, maxResults, metric,
-         pageToken, savedAdStyleId, savedReportId, sort, startDate, startIndex,
+         pageToken, savedAdStyleId, savedReportId, sort, startDate, startingIndex,
          tree;
 
 + (NSDictionary *)arrayPropertyToClassMap {

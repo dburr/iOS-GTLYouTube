@@ -1490,7 +1490,7 @@ totalBytesExpectedToSend:(NSInteger)totalBytesExpected {
     }
 
     if ([object respondsToSelector:@selector(nextStartIndex)]
-        && [query respondsToSelector:@selector(startIndex)]) {
+        && [query respondsToSelector:@selector(startingIndex)]) {
       nextStartIndex = [object performSelector:@selector(nextStartIndex)];
     }
 
@@ -1506,7 +1506,7 @@ totalBytesExpectedToSend:(NSInteger)totalBytesExpected {
         // Use KVC to unwrap the scalar type instead of converting the
         // NSNumber to an integer and using NSInvocation
         [nextPageQuery setValue:nextStartIndex
-                         forKey:@"startIndex"];
+                         forKey:@"startingIndex"];
       }
     }
     return nextPageQuery;

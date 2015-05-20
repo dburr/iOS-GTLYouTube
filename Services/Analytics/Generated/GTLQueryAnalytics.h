@@ -61,7 +61,7 @@
 @property (copy) NSString *segment;
 @property (copy) NSString *sort;
 @property (copy) NSString *startDate;
-@property (assign) NSInteger startIndex;
+@property (assign) NSInteger startingIndex;
 @property (copy) NSString *type;
 @property (copy) NSString *webPropertyId;
 
@@ -89,7 +89,7 @@
 //   segment: An Analytics advanced segment to be applied to data.
 //   sort: A comma-separated list of dimensions or metrics that determine the
 //     sort order for Analytics data.
-//   startIndex: An index of the first entity to retrieve. Use this parameter as
+//   startingIndex: An index of the first entity to retrieve. Use this parameter as
 //     a pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics
@@ -124,7 +124,7 @@
 //   maxResults: The maximum number of entries to include in this feed.
 //   sort: A comma-separated list of dimensions or metrics that determine the
 //     sort order for the Analytics data.
-//   startIndex: An index of the first entity to retrieve. Use this parameter as
+//   startingIndex: An index of the first entity to retrieve. Use this parameter as
 //     a pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics
@@ -143,7 +143,7 @@
 // Lists all accounts to which the user has access.
 //  Optional:
 //   maxResults: The maximum number of accounts to include in this response.
-//   startIndex: An index of the first account to retrieve. Use this parameter
+//   startingIndex: An index of the first account to retrieve. Use this parameter
 //     as a pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics
@@ -163,7 +163,7 @@
 //  Optional:
 //   maxResults: The maximum number of custom data sources to include in this
 //     response.
-//   startIndex: A 1-based index of the first custom data source to retrieve.
+//   startingIndex: A 1-based index of the first custom data source to retrieve.
 //     Use this parameter as a pagination mechanism along with the max-results
 //     parameter.
 //  Authorization scope(s):
@@ -207,7 +207,7 @@
 //  Optional:
 //   maxResults: The maximum number of custom data sources to include in this
 //     response.
-//   startIndex: A 1-based index of the first daily upload to retrieve. Use this
+//   startingIndex: A 1-based index of the first daily upload to retrieve. Use this
 //     parameter as a pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics
@@ -266,7 +266,7 @@
 //     access to.
 //  Optional:
 //   maxResults: The maximum number of goals to include in this response.
-//   startIndex: An index of the first goal to retrieve. Use this parameter as a
+//   startingIndex: An index of the first goal to retrieve. Use this parameter as a
 //     pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics
@@ -291,7 +291,7 @@
 //     properties to which the user has access.
 //  Optional:
 //   maxResults: The maximum number of profiles to include in this response.
-//   startIndex: An index of the first entity to retrieve. Use this parameter as
+//   startingIndex: An index of the first entity to retrieve. Use this parameter as
 //     a pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics
@@ -309,7 +309,7 @@
 //  Optional:
 //   maxResults: The maximum number of advanced segments to include in this
 //     response.
-//   startIndex: An index of the first advanced segment to retrieve. Use this
+//   startingIndex: An index of the first advanced segment to retrieve. Use this
 //     parameter as a pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics
@@ -330,7 +330,7 @@
 //  Optional:
 //   maxResults: The maximum number of web properties to include in this
 //     response.
-//   startIndex: An index of the first entity to retrieve. Use this parameter as
+//   startingIndex: An index of the first entity to retrieve. Use this parameter as
 //     a pagination mechanism along with the max-results parameter.
 //  Authorization scope(s):
 //   kGTLAuthScopeAnalytics

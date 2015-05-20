@@ -802,9 +802,9 @@ static NSString *const kBatchRPCPageBName = @"TaskBatchPage1b.rpc";
 @end
 
 @interface GTLQueryTasksTest (UnitTestAdditions)
-@property (assign) NSUInteger startIndex;
+@property (assign) NSUInteger startingIndex;
 @end
 
 @implementation GTLQueryTasksTest (UnitTestAdditions)
-@dynamic startIndex;
+@dynamic startingIndex;
 @end

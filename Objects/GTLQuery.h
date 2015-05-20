@@ -34,7 +34,7 @@
 @protocol GTLQueryCollectionProtocol
 @optional
 @property (retain) NSString *pageToken;
-@property (retain) NSNumber *startIndex;
+@property (retain) NSNumber *startingIndex;
 @end
 
 @class GTLServiceTicket;

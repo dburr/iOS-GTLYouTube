@@ -69,7 +69,7 @@
 
 // The starting index of the resources, which is 1 by default or otherwise
 // specified by the start-index query parameter.
-@property (retain) NSNumber *startIndex;  // intValue
+@property (retain) NSNumber *startingIndex;  // intValue
 
 // The total number of results for the query, regardless of the number of
 // results in the response.

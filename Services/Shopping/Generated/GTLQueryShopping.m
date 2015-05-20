@@ -52,7 +52,7 @@
          currency, extras, facets, fields, language, location, maxResults,
          maxVariants, plusOne, productId, productIdType, promotions, q, rankBy,
          recommendations, redirects, relatedQueries, restrictBy, safe, source,
-         spelling, startIndex, taxonomy, thumbnails, useCase;
+         spelling, startingIndex, taxonomy, thumbnails, useCase;
 
 #pragma mark -
 #pragma mark "products" methods

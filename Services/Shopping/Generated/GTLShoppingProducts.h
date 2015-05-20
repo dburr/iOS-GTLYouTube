@@ -122,7 +122,7 @@
 @property (retain) GTLShoppingProductsSpelling *spelling;
 
 // 1-based index of the first item in the search results.
-@property (retain) NSNumber *startIndex;  // intValue
+@property (retain) NSNumber *startingIndex;  // intValue
 
 // List of returned stores.
 @property (retain) NSArray *stores;  // of GTLShoppingProductsStoresItem

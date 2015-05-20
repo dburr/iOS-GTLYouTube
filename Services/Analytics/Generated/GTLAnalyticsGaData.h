@@ -187,7 +187,7 @@
 @property (copy) NSString *startDate;
 
 // Start index.
-@property (retain) NSNumber *startIndex;  // intValue
+@property (retain) NSNumber *startingIndex;  // intValue
 
 @end
 

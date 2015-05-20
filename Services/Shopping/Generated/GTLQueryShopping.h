@@ -105,7 +105,7 @@
 @property (assign) BOOL safe;
 @property (copy) NSString *source;
 @property (retain) GTLShoppingProductsListSpelling *spelling;
-@property (assign) NSUInteger startIndex;
+@property (assign) NSUInteger startingIndex;
 @property (copy) NSString *taxonomy;
 @property (copy) NSString *thumbnails;
 @property (copy) NSString *useCase;
@@ -172,7 +172,7 @@
 //   restrictBy: Restriction specification
 //   safe: Whether safe search is enabled. Default: true
 //   spelling: GTLShoppingProductsListSpelling
-//   startIndex: Index (1-based) of first product to return
+//   startingIndex: Index (1-based) of first product to return
 //   taxonomy: Taxonomy name
 //   thumbnails: Image thumbnails specification
 //   useCase: One of CommerceSearchUseCase, ShoppingApiUseCase

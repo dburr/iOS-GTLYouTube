@@ -38,7 +38,7 @@
 //
 
 @implementation GTLAnalyticsGoals
-@dynamic items, itemsPerPage, kind, nextLink, previousLink, startIndex,
+@dynamic items, itemsPerPage, kind, nextLink, previousLink, startingIndex,
          totalResults, username;
 
 + (NSDictionary *)arrayPropertyToClassMap {
