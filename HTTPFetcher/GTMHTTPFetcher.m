@@ -380,7 +380,7 @@ static NSString *const kCallbackError = @"error";
     self.downloadedData = [NSMutableData data];
   }
 
-#if GTM_BACKGROUND_FETCHING
+#if GTM_BACKGROUND_FETCHING && NOT_BUILDING_AS_FRAMEWORK
   backgroundTaskIdentifer_ = 0;  // UIBackgroundTaskInvalid is 0 on iOS 4
   if (shouldFetchInBackground_) {
     // For iOS 3 compatibility, ensure that UIApp supports backgrounding
@@ -457,7 +457,7 @@ CannotBeginFetch:
   }
 }
 
-#if GTM_BACKGROUND_FETCHING
+#if GTM_BACKGROUND_FETCHING && NOT_BUILDING_AS_FRAMEWORK
 - (void)backgroundFetchExpired {
   @synchronized(self) {
     // On background expiration, we stop the fetch and invoke the callbacks
